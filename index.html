@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="./script.js" defer></script>
+
+    <title>Document</title>
+</head>
+<body>
+    <header id="input-header">
+        <div class="left-side">
+            <h1>Nearest Neighbor Simulation</h1>
+        </div>
+        <div class="right-side">
+            <div class="instructions-container">
+                <p class="instructions">To add datapoints: refresh page and submit number of dots</p>
+                <p class="instructions">To use: simply click as many times as you like in the area below header</p>
+            </div>
+            
+            <input id="number-input" type="number" placeholder="Number of dots" aria-label="Number of dots">
+            <button onclick="updateNumberOfDots()">Submit</button>
+        </div>
+        
+    </header>
+    <main id="board">
+    </main>
+</body>
+</html>

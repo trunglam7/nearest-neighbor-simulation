@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  height: 100vh;
+  background-color: black;
+  position: relative;
+}
+
+.dot {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: lightgray;
+}
+
+.main-dot {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+}
+header input {
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 10px;
+}
+header button {
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 10px;
+}
+header .right-side {
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */
